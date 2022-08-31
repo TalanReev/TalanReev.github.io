@@ -1,0 +1,62 @@
+/*  */
+.footer {
+     background-color: lightcoral;
+     box-shadow: 4px 14px 39px -7px rgba(250,15,57,0.75) inset;
+     background-image: url(../Images/background/gnl-homepage-bg.jpg);
+     color: crimson;
+     font-family: "Ubuntu Condensed", sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     height: 500px;
+     margin-top: -4px;
+  }
+  .footer > .logo-footer img {
+   height: 200px; 
+   
+  }
+.footer > .footer-phone-hours span {
+   margin-left: 10px;
+   margin-right: 10px;
+   font-size: 1em;
+   letter-spacing: 2px;
+   font-weight: 800;
+
+}
+
+.footer > .footer-phone-hours > .hours {
+  font-size: 0.8em;
+  color: darkmagenta;
+  font-weight: 900;
+  text-transform: capitalize;
+
+}
+.footer > .links-wrapper {
+   margin-top: 40px;
+   margin-bottom: 40px;
+   width: 500px;
+}
+
+.footer > .social-media-icon-wrapper {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 400px;
+  display: flex;
+  justify-content: space-around; 
+
+}
+.footer > .social-media-icon-wrapper a {
+   font-size: 2em;
+   color:crimson;
+   transition: 0.5s;
+  
+}
+.footer > .social-media-icon-wrapper a:hover{
+   color: blue;
+}
+.footer > .copyright-wrapper {
+   margin-top: 42px;
+   font-size: 0.7em;
+   color:mediumslateblue;
+}

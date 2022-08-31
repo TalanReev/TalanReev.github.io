@@ -1,0 +1,22 @@
+.page-container{
+    display: flex;
+    /* justify-content: center; */
+ }
+ 
+ .page-container > .content-wrapper {
+    width: 1000px;
+ }
+ 
+ .page-container > .content-wrapper > #seller {
+    width: 250px;
+    margin: 24px 10px 0px 15px;
+    float: top;
+    border: 1px solid crimson;
+    transform: rotate(-90deg);
+
+ }
+ .page-container > .content-wrapper {
+    letter-spacing:  1px;
+    line-height: 30px;
+ }
+ 
